@@ -1,7 +1,6 @@
 import React from 'react';
-import './styles/PokeCell.css';
 import sprites from '../assets/sprites.png';
-
+import './styles/PokeCell.css';
 
 
 const PokeCell = ({ pokeClass }) => {
@@ -11,4 +10,4 @@ const PokeCell = ({ pokeClass }) => {
     return <button style={style} className="poke-cell"></button>
 };
 
-    export default PokeCell;
+export default PokeCell;
