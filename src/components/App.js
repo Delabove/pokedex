@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
+import PokeList from './PokeList';
 
 class App extends Component {
 
@@ -16,6 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <PokeList />
       </div>
     );
   }
