@@ -17,10 +17,7 @@ class App extends Component {
 
     this.handleOnClick = this.handleOnClick.bind(this);
   }
-// const toggleFavoriteAction = (pokemon) => dispatch({
-//   type: 'ADD_FAV',
-//   payload: pokemon
-// })
+
 
   // 2. render: where we write our jsx
 
@@ -49,4 +46,4 @@ class App extends Component {
 }
 
 
-export default  App;
+export default App;

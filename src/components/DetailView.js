@@ -8,7 +8,6 @@ const DetailView = ({ pokemon }) => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-
         }
 
     return (
