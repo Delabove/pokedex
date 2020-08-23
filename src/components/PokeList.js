@@ -15,6 +15,9 @@ const PokeList = ({ handleOnClick }) => {
     );
   });
 
+  const Favorite =()=>{
+    return <button>Favorite</button>
+    }
 
   return (
     <section className="poke-list">
