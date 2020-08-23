@@ -15,6 +15,7 @@ const PokeList = ({ handleOnClick }) => {
     );
   });
 
+
   return (
     <section className="poke-list">
       {cells}

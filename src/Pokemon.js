@@ -1,4 +1,3 @@
-
 class Pokemon {
     constructor(data) {
       this.id = data.id;
@@ -7,5 +6,5 @@ class Pokemon {
       this.type = data.types[0].type.name;
     }
   }
-  
+
   export default Pokemon;

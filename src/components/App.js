@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './styles/App.css';
 import PokeList from './PokeList';
 import DetailView from './DetailView';
-import Pokeman from '.Pokemon';
+import Pokemon from '../Pokemon';
+import './styles/App.css';
 
 class App extends Component {
 
@@ -18,6 +18,19 @@ class App extends Component {
     this.handleOnClick = this.handleOnClick.bind(this);
   }
 
+
+  // 2. render: where we write our jsx
+
+  render() {
+    return (
+      <div className="App">
+        <PokeList handleOnClick={this.handleOnClick} />
+        <DetailView pokemon={this.state.pokemon} />
+      </div>
+    );
+  }
+
+
   handleOnClick(id) {
     fetch(`http://pokeapi.co/api/v2/pokemon/${id}/`)
       .then(res => res.json())
@@ -30,16 +43,6 @@ class App extends Component {
   }
 
 
-  // 2. render: where we write our jsx
-
-  render() {
-    return (
-      <div className="App">
-        <PokeList handleOnClick={this.handleOnClick} />
-        <DetailView pokemon={this.state.pokemon} />
-      </div>
-    );
-  }
 }
 
 
