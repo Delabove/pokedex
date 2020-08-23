@@ -5,6 +5,9 @@ import App from './components/App';
 // import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
 // registerServiceWorker();
 
 //This file basically is telling the DOM to render the App

@@ -1,7 +1,8 @@
 
 .detail-view {
-    width: 50%;
-    height: 100%;
+    width: 20%;
+    height: 50%;
+    margin-left: 100px;
     padding: 10px;
     background-color: #df095e;
     border-top-right-radius: 10px;
@@ -12,7 +13,7 @@
   }
   
   .sprite-image {
-    width: 80%;
+    width: 50%;
     height: 150px;
     margin: 10px auto;
     background-color: #585858;

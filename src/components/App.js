@@ -26,6 +26,11 @@ class App extends Component {
       <div className="App">
         <PokeList handleOnClick={this.handleOnClick} />
         <DetailView pokemon={this.state.pokemon} />
+
+        <button>
+          Favorite
+        </button>
+
       </div>
     );
   }
